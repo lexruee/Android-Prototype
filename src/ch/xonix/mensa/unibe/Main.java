@@ -1,4 +1,4 @@
-package ch.xonix.mensaunibe;
+package ch.xonix.mensa.unibe;
 
 import android.os.Bundle;
 import android.app.Activity;
