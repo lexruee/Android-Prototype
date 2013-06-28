@@ -7,16 +7,10 @@ Mensa@Unibe is an android prototype application for receiving the daily meals of
 
 The app uses a self made JSON/REST web-service (http://mensa.xonix.ch/) to get the available canteens and the daily meals.
 
-##Download the prototype
+##Download and install the prototype
 You can download the apk file of this [prototype from here](https://github.com/lexruee/Mensa-Unibe/raw/master/bin/MensaUnibeApp.apk).
-Or you can clone this repo and build the app by yourself.
-```
-git clone https://github.com/lexruee/Mensa-Unibe
-```
 
-##Install
-
-1. Copy the apk file to your Android’s memory card.
+1. Copy the apk file to your android’s memory card.
 2. Download and install the apps Installer application from the play store.
 3. Once installed, the Apps Installer will display the APK files on the memory card.
 4. Modify your android’s settings to allow the installation of applications from other sources.
