@@ -7,6 +7,6 @@ The app uses a self made JSON/REST web-service (http://mensa.xonix.ch/) to get t
 
 ##Screenshots
 ###List of all available canteens
-<img alt="image" src="https://github.com/lexruee/Mensa-Unibe/blob/master/screenshots/1.png" width="200px" />
+<img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe/master/screenshots/1.png" width="200px" />
 ###View of a daily meal plan
-<img alt="image" src="https://github.com/lexruee/Mensa-Unibe/blob/master/screenshots/2.png" width="200px" />
+<img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe/master/screenshots/2.png" width="200px" />
