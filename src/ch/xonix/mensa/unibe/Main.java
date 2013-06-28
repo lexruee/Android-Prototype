@@ -1,17 +1,23 @@
 package ch.xonix.mensa.unibe;
 
 import ch.xonix.mensa.unibe.model.Mensa;
-import ch.xonix.mensa.unibe.model.Model;
 import ch.xonix.mensa.unibe.request.MensasRequest;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class Main extends Activity {
 
+	private static final CharSequence MESSAGE_GET_DATA = "lade...";
+	protected static final String MENSA_ID_KEY = "ch.xonix.mensa.unibe::mensa_ID";
+	protected static final String MENSA_NAME_KEY = "ch.xonix.mensa.unibe::mensa_name";
 	private ListView mensaListView;
 	private ArrayAdapter<Mensa> mensaListAdapter;
 
@@ -19,12 +25,30 @@ public class Main extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		//create a array adapter
-		mensaListAdapter = new ArrayAdapter<Mensa>(this,android.R.layout.simple_list_item_1);
+
+		// create a array adapter
+		mensaListAdapter = new ArrayAdapter<Mensa>(this,
+				android.R.layout.simple_list_item_1);
 		mensaListView = (ListView) this.findViewById(R.id.mensa_list);
 		mensaListView.setAdapter(mensaListAdapter);
-		new MensasRequest(mensaListAdapter).execute();	
+		// make aysnc request to get a list of all canteens
+		Toast.makeText(Main.this, MESSAGE_GET_DATA, Toast.LENGTH_SHORT).show();
+		new MensasRequest(mensaListAdapter).execute();
+
+		// ad OnItemClickListener
+		mensaListView.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int pos,
+					long arg3) {
+				Mensa mensa = (Mensa) parent.getItemAtPosition(pos);
+				Intent intent = new Intent(Main.this, MenuplanActivity.class);
+				intent.putExtra(MENSA_ID_KEY, mensa.getId());
+				intent.putExtra(MENSA_NAME_KEY, mensa.getName());
+				Main.this.startActivity(intent);
+
+			}
+		});
 	}
 
 	@Override
