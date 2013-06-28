@@ -6,6 +6,7 @@ This repo hosts the source code of the Mensa@Unibe android app.
 Mensa@Unibe is an android prototype application for receiving the daily meals of the canteens at the university of bern.
 
 The app uses a self made JSON/REST web-service (http://mensa.xonix.ch/) to get the available canteens and the daily meals.
+For more details see [Mensa-Unibe-Webservice](https://github.com/lexruee/Mensa-Unibe-Webservice).
 
 ##Download and install the prototype
 You can download the apk file of the prototype [from here](https://github.com/lexruee/Mensa-Unibe/raw/master/bin/MensaUnibeApp.apk).
