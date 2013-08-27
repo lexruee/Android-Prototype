@@ -19,6 +19,6 @@ public class NoneMenu extends Menu{
 	}
 
 	public String getContent() {
-		return "Zurzeit sind keine aktuellen\n Menü-Informationen abrufbar.";
+		return "Zurzeit sind keine aktuellen\n MenÃ¼-Informationen abrufbar.";
 	}
 }

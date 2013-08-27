@@ -20,7 +20,7 @@ public class MenuplanActivity extends Activity {
 		String mensaId = getIntent().getStringExtra(Main.MENSA_ID_KEY);
 		String mensaName = getIntent().getStringExtra(Main.MENSA_NAME_KEY);
 		TextView textView = (TextView) this.findViewById(R.id.menuplan_title);
-		textView.setText("Tagesmenüplan\n"+mensaName);
+		textView.setText("TagesmenÃ¼plan\n"+mensaName);
 		
 		menuListView = (ListView) this.findViewById(R.id.menu_list);
 		menuListAdapter = new MenuListAdapter(this);

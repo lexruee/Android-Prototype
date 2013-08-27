@@ -41,7 +41,8 @@ public class MensasRequest extends AbstractRequest {
 				mensas.add(new Mensa(mensaJsonObject));
 			}
 			this.mensaListAdapter.clear();
-			this.mensaListAdapter.addAll(mensas);
+			for(Mensa mensa : mensas)
+				this.mensaListAdapter.add(mensa);
 			this.mensaListAdapter.notifyDataSetChanged();
 		} catch (JSONException e) {
 			e.printStackTrace();

@@ -5,7 +5,7 @@ import org.json.JSONObject;
 
 public class Mensa {
 
-	private static final String MENSA_NAME_KEY = "name";
+	private static final String MENSA_NAME_KEY = "mensa";
 	private static final String MENSA_ID_KEY = "id";
 	private static final String MENSA_STREET_KEY = "street";
 	private static final String MENSA_PLZ_KEY = "plz";
