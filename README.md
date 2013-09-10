@@ -1,5 +1,5 @@
-Mensa-Unibe
-===========
+Mensa-Unibe-Android-Prototype
+=============================
 Hello!
 This repo hosts the source code of the Mensa@Unibe android app.
 
