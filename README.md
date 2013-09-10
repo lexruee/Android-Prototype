@@ -9,7 +9,7 @@ The app uses a self made JSON/REST web-service (http://mensa.xonix.ch/) to get t
 For more details see [Mensa-Unibe-Webservice](https://github.com/lexruee/Mensa-Unibe-Webservice).
 
 ##Download and install the prototype
-You can download the apk file of the prototype [from here](https://github.com/lexruee/Mensa-Unibe-Android-Prototype//raw/master/bin/MensaUnibe-Android.apk).
+You can download the apk file of the prototype [from here](https://github.com/lexruee/Mensa-Unibe-Android-Prototype/raw/master/bin/MensaUnibe-Android.apk).
 
 1. Copy the apk file to your android’s memory card.
 2. Download and install the apps Installer application from the play store.
@@ -19,8 +19,8 @@ You can download the apk file of the prototype [from here](https://github.com/le
 
 ##Screenshots
 ###List of all available canteens
-<img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe-Android-Prototype//master/screenshots/1.png" width="200px" />
+<img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe-Android-Prototype/master/screenshots/1.png" width="200px" />
 ###View of a daily meal plan
-<img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe-Android-Prototype//master/screenshots/2.png" width="200px" />
+<img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe-Android-Prototype/master/screenshots/2.png" width="200px" />
 
 
