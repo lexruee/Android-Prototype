@@ -24,3 +24,9 @@ You can download the apk file of the prototype [from here](https://github.com/le
 <img alt="image" src="https://raw.github.com/lexruee/Mensa-Unibe-Android-Prototype/master/screenshots/2.png" width="200px" />
 
 
+#Copyright, license and usage
+This software is written by Alexander Rüedlinger. If you want to use this service in a project then please let me know.
+
+License: Creative Commons [CC BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/deed.en_US)
+
+<img src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" />
